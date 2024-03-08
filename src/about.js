@@ -1,3 +1,5 @@
+import About from './jpg/campfire-kitchen.jpg';
+
 function goAbout() {
     const content = document.querySelector('#content');
     
@@ -6,7 +8,7 @@ function goAbout() {
     content.appendChild(title);
 
     const pizzaImg = document.createElement('img');
-    aboutIMG.src = '';
+    aboutIMG.src = About;
     pizzaImg.alt = "A campfire in the woods";
     content.appendChild(aboutImg);
 
