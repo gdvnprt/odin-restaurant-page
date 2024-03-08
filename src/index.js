@@ -12,3 +12,21 @@ function clear() {
         content.removeChild(container.firstChild);
     };
 };
+
+const homeButton = document.querySelector('#home');
+homeButton.addEventListener('click',() => {
+    clear();
+    goHome();
+});
+
+const menuButton = document.querySelector('#menu');
+menuButton.addEventListener('click',() => {
+    clear();
+    goMenu();
+});
+
+const aboutButton = document.querySelector('#about');
+aboutButton.addEventListener('click',() => {
+    clear();
+    goAbout();
+});
