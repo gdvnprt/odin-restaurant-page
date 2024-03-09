@@ -2,6 +2,8 @@ import goHome from './home.js';
 import goMenu from './menu.js';
 import goAbout from './about.js';
 
+import './style.css';
+
 console.log("Webpack running");
 
 goHome();
