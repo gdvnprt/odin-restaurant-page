@@ -4,7 +4,7 @@ import goAbout from './about.js';
 
 console.log("Webpack running");
 
-goHome;
+goHome();
 
 function clear() {
     const content = document.querySelector('#content');
@@ -16,7 +16,7 @@ function clear() {
 const homeButton = document.querySelector('#home');
 homeButton.addEventListener('click',() => {
     clear();
-    goHome;
+    goHome();
 });
 
 const menuButton = document.querySelector('#menu');
@@ -28,5 +28,5 @@ menuButton.addEventListener('click',() => {
 const aboutButton = document.querySelector('#about');
 aboutButton.addEventListener('click',() => {
     clear();
-    goAbout;
+    goAbout();
 });

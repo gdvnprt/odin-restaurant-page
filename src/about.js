@@ -1,4 +1,5 @@
-import About from './jpg/campsite-kitchen.jpg';
+import about from './jpg/campsite-kitchen.jpg';
+
 
 export default function goAbout() {
     const content = document.querySelector('#content');
@@ -8,7 +9,7 @@ export default function goAbout() {
     content.appendChild(title);
 
     const pizzaImg = document.createElement('img');
-    aboutIMG.src = About;
+    aboutIMG.src = about;
     pizzaImg.alt = "A campfire in the woods";
     content.appendChild(aboutImg);
 
