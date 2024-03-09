@@ -1,5 +1,5 @@
 import goHome from './home.js';
-import './menu.js';
+import goMenu from './menu.js';
 import goAbout from './about.js';
 
 console.log("Webpack running");

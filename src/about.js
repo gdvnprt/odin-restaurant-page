@@ -1,4 +1,4 @@
-import about from './jpg/campsite-kitchen.jpg';
+import About from './jpg/campsite-kitchen.jpg';
 
 
 export default function goAbout() {
@@ -8,9 +8,9 @@ export default function goAbout() {
     title.innerHTML = "Born in the outdoors.";
     content.appendChild(title);
 
-    const pizzaImg = document.createElement('img');
-    aboutIMG.src = about;
-    pizzaImg.alt = "A campfire in the woods";
+    const aboutImg = document.createElement('img');
+    aboutImg.src = About;
+    aboutImg.alt = "A campfire in the woods";
     content.appendChild(aboutImg);
 
     const description = document.createElement('p');
