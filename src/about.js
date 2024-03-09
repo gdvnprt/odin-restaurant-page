@@ -1,6 +1,6 @@
-import About from './jpg/campfire-kitchen.jpg';
+import About from './jpg/campsite-kitchen.jpg';
 
-function goAbout() {
+export default function goAbout() {
     const content = document.querySelector('#content');
     
     const title = document.createElement('h1');

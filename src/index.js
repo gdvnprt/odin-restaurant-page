@@ -1,22 +1,22 @@
-import './home.js';
+import goHome from './home.js';
 import './menu.js';
-import './about.js'
+import goAbout from './about.js';
 
 console.log("Webpack running");
 
-goHome();
+goHome;
 
 function clear() {
     const content = document.querySelector('#content');
     while (content.firstChild) {
-        content.removeChild(container.firstChild);
+        content.removeChild(content.firstChild);
     };
 };
 
 const homeButton = document.querySelector('#home');
 homeButton.addEventListener('click',() => {
     clear();
-    goHome();
+    goHome;
 });
 
 const menuButton = document.querySelector('#menu');
@@ -28,5 +28,5 @@ menuButton.addEventListener('click',() => {
 const aboutButton = document.querySelector('#about');
 aboutButton.addEventListener('click',() => {
     clear();
-    goAbout();
+    goAbout;
 });

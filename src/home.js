@@ -1,6 +1,6 @@
-import Image from './camp-pizza.jpg';
+import Image from './jpg/pizza-title.jpg';
 
-function goHome() {
+export default function goHome() {
     const content = document.querySelector('#content');
     
     const title = document.createElement('h1');

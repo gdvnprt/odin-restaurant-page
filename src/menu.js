@@ -7,11 +7,11 @@ import hotChoc from './jpg/hot-chocolate.jpg';
 
 let menuList = [];
 
-function menuDish(imgLnk, imgAlt, title, desc) {
-    const imgLnk = imgLnk;
-    const imgAlt = imgAlt;
-    const title = title;
-    const desc = desc;
+function menuDish(lnk, alt, ttle, dsc) {
+    const imgLnk = lnk;
+    const imgAlt = alt;
+    const title = ttle;
+    const desc = dsc;
     return { imgLnk, imgAlt, title, desc };
 };
 
